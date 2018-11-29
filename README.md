@@ -5,7 +5,7 @@
 
 1. Construct a bi-directional has many through.
 2. Query for associations via the belongs_to, has_many, and has_many through associations.
-3. Iterate over associations in a view and display associated data for a primary instance.
+3. Iterate over associations in a view and display associatedafsd data for a primary instance.
 4. Identify the join model in a has many through.
 
 ## Overview
@@ -150,7 +150,7 @@ Comments:
   <% end %>
 ```
 
-This is the same as we've done before –– we're simply looking at data associated with posts and comments. Calling `comment.user` returns for use the `User` object associated with that comment. We can then call any method that our user responds to, such as `username`.
+This is the same as we've done before –– we're simply looking at data associated with posts and comments. Calling `comment.user` returns for us the `User` object associated with that comment. We can then call any method that our user responds to, such as `username`.
 
 ## Adding Posts to Our Users
 
